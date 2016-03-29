@@ -9,6 +9,8 @@
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
+*.VC.db
+*.VC.opendb
 
 # Build results
 [Dd]ebug/
