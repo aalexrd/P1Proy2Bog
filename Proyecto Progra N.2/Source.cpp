@@ -1,8 +1,8 @@
-#include <iostream>
 #include "Juego.h"
-using namespace std;
-void main(){
+
+void main()
+{
 	Juego jueg;
 	jueg.interfaz();
-	system("pause");
 }
+

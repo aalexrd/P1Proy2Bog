@@ -2,26 +2,21 @@
 #ifndef Jugador_H
 #define Jugador_H
 #include <iostream>
-#include <string>
 using namespace std;
-class Jugador{
+
+class Jugador
+{
 protected:
 	string nombre;
 	int aciertos;
 public:
-	Jugador(){}
-	Jugador(string nom){
-		nombre=nom;
-		aciertos=0;
-	}
-	void setAciertos(int aci){
-		aciertos=aci;}
-	void setNombre(string nom){
-		nombre=nom; }
-	string getNombre(){
-		return nombre;}
-	int getAciertos(){
-		return aciertos;}
-	~Jugador(){}
+	Jugador();
+	Jugador(string nom);
+	void setAciertos(int aci);
+	void setNombre(string nom);
+	string getNombre() const;
+	int getAciertos() const;
+	~Jugador();
 };
 #endif
+

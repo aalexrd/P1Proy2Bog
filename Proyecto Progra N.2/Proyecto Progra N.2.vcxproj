@@ -73,6 +73,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Dado.cpp" />
+    <ClCompile Include="Diccionario.cpp" />
+    <ClCompile Include="Juego.cpp" />
+    <ClCompile Include="Jugador.cpp" />
+    <ClCompile Include="Lista.cpp" />
+    <ClCompile Include="Nodo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
